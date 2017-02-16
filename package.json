@@ -4,7 +4,8 @@
   "description": "learning the server side part of nodejs",
   "main": "myserver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon myserver.js"
   },
   "author": "",
   "license": "ISC",
