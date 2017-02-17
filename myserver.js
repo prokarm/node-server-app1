@@ -14,7 +14,7 @@ hbs.registerHelper('currentYear',()=>{  //i have register a helper which lets me
 //
 //});
 
-app.use(express.static(__dirname+'/playarena')) //use is used to take middleware function  
+app.use(express.static(__dirname+'/playarena')) //use is used to take middleware function
 
 app.get('/', (req,res) => {
     res.render('home.hbs',{             //we are rendering the page so that we can dynamicalyy add or update ti html template
